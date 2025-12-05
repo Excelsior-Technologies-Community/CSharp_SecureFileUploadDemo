@@ -1,0 +1,76 @@
+﻿@model IEnumerable<SecureFileUploadDemo.Models.FileRecord>
+
+@{
+    ViewData["Title"] = "Uploaded Files";
+}
+
+<h2>Uploaded Files</h2>
+
+<p>
+    <a asp-action="Upload" class="btn btn-primary">Upload New File</a>
+</p>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>File Name</th>
+            <th>Type</th>
+            <th>Size (MB)</th>
+            <th>Uploaded At (UTC)</th>
+            <th>Safe?</th>
+            <th>Preview</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var f in Model)
+        {
+            var sizeMb = (double)f.SizeBytes / (1024 * 1024);
+            var token = f.SignedToken;
+            var previewUrl = Url.Action("Content", "Files", new { id = f.Id, token });
+
+            <tr>
+                <td>@f.OriginalFileName</td>
+                <td>@f.ContentType</td>
+                <td>@sizeMb.ToString("F2")</td>
+                <td>@f.UploadedAt.ToString("u")</td>
+                <td>
+                    @if (f.IsSafe)
+                    {
+                        <span class="badge bg-success">Safe</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Infected</span>
+                    }
+                </td>
+                <td>
+                    @if (f.ContentType.StartsWith("image/"))
+                    {
+                        <!-- Image preview -->
+                        <a href="@previewUrl" target="_blank" class="btn btn-sm btn-info">
+                            View Image
+                        </a>
+                    }
+                    else if (f.ContentType == "application/pdf")
+                    {
+                        <!-- PDF preview -->
+                        <a href="@previewUrl" target="_blank" class="btn btn-sm btn-secondary">
+                            View PDF
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="@previewUrl" target="_blank" class="btn btn-sm btn-outline-dark">
+                            Download
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
