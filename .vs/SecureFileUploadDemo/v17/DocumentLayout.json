@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\ASP.NET\\SecureFileUploadDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|d:\\asp.net\\securefileuploaddemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|d:\\asp.net\\securefileuploaddemo\\views\\files\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|solutionrelative:views\\files\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|d:\\asp.net\\securefileuploaddemo\\ducumentation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|solutionrelative:ducumentation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|d:\\asp.net\\securefileuploaddemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ASP.NET\\SecureFileUploadDemo\\Views\\Files\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Files\\Index.cshtml",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ducumentation.md",
               "DocumentMoniker": "D:\\ASP.NET\\SecureFileUploadDemo\\ducumentation.md",
               "RelativeDocumentMoniker": "ducumentation.md",
@@ -71,20 +71,20 @@
               "RelativeToolTip": "ducumentation.md",
               "ViewState": "AgIAABQBAAAAAAAAAAAkwCoBAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-12-05T09:03:28.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T09:03:28.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ASP.NET\\SecureFileUploadDemo\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\ASP.NET\\SecureFileUploadDemo\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-04T10:34:33.086Z"
+              "WhenOpened": "2025-12-04T10:34:33.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

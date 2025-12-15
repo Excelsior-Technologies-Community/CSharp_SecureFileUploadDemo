@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\ASP.NET\\SecureFileUploadDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|d:\\asp.net\\securefileuploaddemo\\views\\files\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|solutionrelative:views\\files\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|d:\\asp.net\\securefileuploaddemo\\ducumentation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{0BD69913-2D99-4D1A-ADE0-E1A0A3D1BB93}|SecureFileUploadDemo.csproj|solutionrelative:ducumentation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
@@ -47,6 +51,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\SecureFileUploadDemo\\Views\\Files\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Files\\Index.cshtml",
+              "ToolTip": "D:\\ASP.NET\\SecureFileUploadDemo\\Views\\Files\\Index.cshtml",
+              "RelativeToolTip": "Views\\Files\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T12:32:38.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ducumentation.md",
               "DocumentMoniker": "D:\\ASP.NET\\SecureFileUploadDemo\\ducumentation.md",
               "RelativeDocumentMoniker": "ducumentation.md",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ASP.NET\\SecureFileUploadDemo\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -67,8 +84,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-04T10:34:33.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T10:34:33.086Z"
             },
             {
               "$type": "Bookmark",
